@@ -57,7 +57,7 @@ int main()
 	}
 
 	if (s == 'y')
-		txtOut.open("GeneratedPass.txt");
+		txtOut.open("GeneratedPass.txt", std::ios_base::app);
 
 	srand(time(NULL));
 
