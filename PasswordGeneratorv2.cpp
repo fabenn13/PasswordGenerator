@@ -61,7 +61,7 @@ int main()
 
 	srand(time(NULL));
 
-	for (int i = 0; i < r; i++) //Error: Sometimes outputs a |
+	for (int i = 0; i < r; i++)
 	{
 		if (spec == 'y')
 			j = rand() % 71;
